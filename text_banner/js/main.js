@@ -1,5 +1,5 @@
 var Word = function(key){
-	var bgC,bgCtx,denseness=5,circles=[],itercount=0,itertot=40,canvas,ctx;
+	var bgC,bgCtx,denseness=10,circles=[],itercount=0,itertot=40,canvas,ctx;
 	this.keyword = key;
 	this.init = function(id_c){
 		canvas = document.getElementById(id_c);
@@ -70,7 +70,7 @@ var Word = function(key){
 			}
 			ctx.fillStyle = circle.color;
 			ctx.beginPath();
-			ctx.arc(circle.x2,circle.y2,3,0,Math.PI*2,true);
+			ctx.arc(circle.x2,circle.y2,6,0,Math.PI*2,true);
 			ctx.closePath();
 			ctx.fill();
 		}
