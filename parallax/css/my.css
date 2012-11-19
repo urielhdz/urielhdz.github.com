@@ -1,0 +1,35 @@
+.parallax{
+	background-attachment: fixed;
+	margin: 0px;
+	padding: 0px;
+	margin-top: -30px;
+	width: 100%;
+	height: 900px;
+	position: relative;
+}
+.parallax .contenido{
+	position: relative;
+	top:400px;
+	text-align: center;
+	color: #FFF;
+}
+.wrapper{
+	position: relative;
+	
+}
+.wrapper div{
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	border-radius: 50px;
+	background-color: #FFF;
+
+}
+#uno{
+	background: url(../back1.jpg);
+	background-size: 100% 100%;
+}
+#dos{
+	background: url(../back2.jpg);
+	background-size: 100% 100%;
+}
