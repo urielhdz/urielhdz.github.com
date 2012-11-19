@@ -1,0 +1,32 @@
+html{
+	background-image: url(../b.png);
+}
+#main{
+	text-align: center;
+}
+h1{
+	font-family: 'Press Start 2P', cursive;
+	color:#D91828;	
+	text-shadow:1px 1px 2px #FFF, 5px 5px 5px rgba(0,0,0,0.8);
+}
+p{
+	background-color: #FFF;
+	padding: 20px;
+	width: 50%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+#c{
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+}
+input[type=submit]{
+	border: none;
+	background-color: #7AB099;
+	padding: 10px;
+	color: #FFF;
+	font-weight: bolder;
+}
+input[type=text]{
+	padding: 10px;
+	width: 300px;
+}
