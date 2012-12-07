@@ -74,7 +74,7 @@ function loadMedia()
 	//Esta función carga las imágenes y el audio
 	//Primero cargamos las imágenes
 	imgSpaceShip = new Image();
-	imgSpaceShip.src = 'spaceShip.png';
+	imgSpaceShip.src = 'spaceship.png';
 	imgInvader = new Image();
 	imgInvader.src = 'monster.png';
 	imgShoot = new Image();
