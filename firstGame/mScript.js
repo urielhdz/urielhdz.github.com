@@ -1,5 +1,5 @@
 var canvasDos,preloader,imagenes;
-imagenes = ['monster.png','spaceShip.png','enemyLaser.png','laser.png','space.jpg'];
+imagenes = ['monster.png','spaceship.png','enemyLaser.png','laser.png','space.jpg'];
 $(document).on("ready",iniciarApp);
 function iniciarApp()
 {
