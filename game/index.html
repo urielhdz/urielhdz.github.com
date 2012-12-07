@@ -1,0 +1,60 @@
+<doctype html>
+<html>
+<head>
+	<title>My first Game</title>
+	<meta charset='utf-8'>
+	<link rel="stylesheet" href="stylesheet.css">
+	<link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div id='preloader'>
+		<header>
+			<h1>Cargando</h1>
+		</header>
+		<canvas id='miCanvas' width='200' height='200'></canvas>
+		<span id='porcentaje'>0%</span>
+	</div>
+	<nav id='social'>
+		<ul>
+			<li><a href='http://www.facebook.com/dxvtuts' target='_blank'>Facebook</a></li>
+			<li><a href='https://twitter.com/dxvtweet' target='_blank'>Twitter</a></li>
+			<li><a href='https://www.youtube.com/dxvtuts' target='_blank'>Youtube</a></li>
+		</ul>
+	</nav>
+	<div id='wrapper'>
+		<header>
+			<h1>Game v0.2</h1>
+		</header>
+		<p>Flechas izquierda y derecha para moverse, barra espaciadora para disparar.</p>
+		<div id='main'>
+			<canvas id='game' width='800' height='400' style='width:400px;height:200px;'></canvas>
+		</div>
+		<div id="social_btns">
+				<a name="fb_share" type="button" href="">Share on Facebook</a>
+				<script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" 
+				        type="text/javascript">
+				</script>
+
+				<a href="https://twitter.com/share" class="twitter-share-button" data-text="Aprende a crear un juego con #Canvas!" data-via="dxvtweet" data-lang="es">Twittear</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</div>
+			<script type="text/javascript"><!--
+google_ad_client = "ca-pub-0578114580556919";
+/* anuncioBlog */
+google_ad_slot = "2606680285";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+	</div>
+	<footer>
+	</footer>
+	<script src='http://code.jquery.com/jquery-1.7.2.min.js'></script>
+	<script src='preloadjs-0.1.0.min.js'></script>
+	<script src='mScript.js'></script>
+	<script src='mainScript.js'></script>
+</body>
+</html>

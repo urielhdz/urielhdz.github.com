@@ -1,0 +1,106 @@
+@font-face
+{
+	font-family:"Bebas";
+	src:url(BebasNeue-webfont.ttf), url(BebasNeue-webfont.otf), url(BebasNeue-webfont.eot);
+}
+*
+{
+	margin:0px;
+	padding:0px;
+}
+html
+{
+	height:100%;
+}
+body
+{
+	overflow: hidden;
+	text-align: center;
+	font-family:"Bebas",Arial,"Helvetica";
+	color:#333;
+	background: rgb(255,255,255); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(229,229,229,1))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* IE10+ */
+background: radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+#social
+{
+	background-color:#333;
+	position: fixed;
+	top:0px;
+	right:0px;
+	padding:5px;
+	color:#FFF;
+}
+#social ul li
+{
+	padding-right:5px;
+	cursor: pointer;
+	display: inline-block;
+}
+h1
+{
+	font-size:4em;
+	
+	font-family: 'Press Start 2P', cursive;
+	padding:5px;
+	color:#B72114;
+	text-shadow:2px 2px 2px #9D1D11,3px 3px 2px #9D1D11,4px 4px 2px #77160D, 5px 5px 2px rgb(30,30,30),6px 6px 2px #370A06,7px 7px 2px #000;
+}
+p
+{
+	padding:10px;
+	font-size:18px;
+}
+#game
+{
+	box-shadow:20px 20px 20px rgba(0,0,0,0.8);
+}
+a
+{
+	color: inherit;
+	text-decoration: none;
+}
+#miCanvas
+{
+	position: absolute;
+}
+#porcentaje
+{
+	font-weight:bolder;
+	color:#000;
+	font-size:24px;
+	position: absolute;
+	z-index:10;
+}
+#wrapper
+{
+	display:none;
+}
+#social_btns
+{
+	margin-top:50px;
+}
+#social_btns a
+{
+	text-decoration:none;
+}
+#social_btns img
+{
+	border:none;
+}
+
+#game, #anuncio
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+.twitter-share-button,#donacion
+{
+	vertical-align: middle;
+}
