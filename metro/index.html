@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang='es'>
+<head>
+	<title>Metro</title>
+	<meta charset='utf-8'>
+	<link rel="stylesheet" type="text/css" href="css/metro-bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="pantallaInicio">
+
+		<h1>Inicio</h1>
+		<div class='wincalc'>
+			<h2>Calculadora</h2>
+			<p>Hola mundo</p>
+		</div>
+		<div class='openCalc'>
+			<h2>Mi calculadora</h2>
+			<p>Hola mundo</p>
+		</div>
+		<div class='openCr'>
+			<h2>Créditos</h2>
+			<p>Hola mundo</p>
+		</div>
+		<section>
+			<h3><img src="imgs/perfil.jpg" style='width:20%;'> Marcos Uriel </h3>
+			<h4>Hernández Camacho</h4>
+			<strong><a href="#" id='close'>Close</a></strong>
+		</section>
+	</div>
+	<div id="calc">
+		<nav>
+			<h2>Calculadora</h2>
+			<li> <i class="icon-remove icon-white" id='closeCalc'></i></li>
+		</nav>
+		<input type='text' id='resultado'><br>
+		<div id="botones">
+
+		</div>
+		<div id="operaciones">
+			<button id='sumar' class='btnO' data-operacion='a'>+</button>
+			<button id='restar' class='btnO' data-operacion='b'>-</button>
+			<button id='multiplicar' class='btnO' data-operacion='c'>*</button>
+			<button id='dividir' class='btnO' data-operacion='d'>/</button>
+			<button id='modulo' class='btnO' data-operacion='e'>%</button>
+			<button id='igual' >=</button>
+		</div>
+		
+	</div>
+	<div id="creditos">
+		<nav>
+			<li> <i class="icon-minus icon-white"></i>	 </li>
+			<li> <i class="icon-fullscreen icon-white" id='full'></i>	 </li>
+			<li> <i class="icon-remove icon-white" id='closeCre'></i>	 </li>
+		</nav>
+		<div>
+			<h2>Créditos</h2>
+			<p><strong>Nombre: </strong> Marcos Uriel Hernández Camacho</p>
+			<p><strong>Materia: </strong> Desarrollo Software</p>
+			<p><strong>Profesor: </strong> Juan Carlos López Pimentel</p>
+		</div>
+	</div>
+	<div id="ayuda">
+			<ul>
+				<li>
+					<img src="imgs/windows.png">
+					<p>Inicio</p>
+
+				</li>
+				<li class='wincalc'>
+					<img src="imgs/calculator-white.png">
+					<p>Calculadora</p>
+
+				</li>
+			</ul>
+		</div>
+	<div id='ay_ay'></div>
+	<div id="screen">
+		<ul>
+			<li class='openCr'>
+				<img src="imgs/logo.png">
+				<span style='font-size:0.8em;'>Créditos</span>
+			</li>
+			<li class='wincalc'>
+				<img src="imgs/windowscalc.png">
+				<span style='font-size:0.8em;'>Calculadora</span>
+			</li>
+			<br>
+			<li class='openCalc'>
+				<img src="imgs/calculator.png"><br>
+				<span style='font-size:0.8em;'>Mi calculadora</span>
+			</li>
+		</ul>
+	</div>
+	<nav id="bottom">
+		<ul id='btns'>
+			<li class='openCalc'><img src="imgs/calculator.png"></li>
+			<li id='inicio'><img src="imgs/windows.png"></li>
+			<li class='wincalc'><img src="imgs/windowscalc.png"></li>
+		</ul>
+		<ul id='iconos'>
+			<i class="icon-chevron-up icon-white" style='vertical-align:middle;'></i>
+			<span style='color:#f7f7f7;'>Marcos Uriel Hernández Camacho</span>
+		</ul>
+	</nav>
+	<script src='js/jquery.js'></script>
+	<script src='js/drag.js'></script>
+	<script src='js/script.js'></script>
+</body>
+</html>

@@ -1,0 +1,198 @@
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+	background: url(../imgs/wallpaper.jpg);
+	background-size: 100%;
+	overflow: hidden;
+	color: #fff;
+}
+#screen{
+	width: 100%;
+	height: 100%;
+	
+}
+#screen ul{
+	padding:1em;
+	padding-left: 0;
+}
+#screen ul li{
+	width: 80px;
+	margin-bottom: 10px;
+	height: 70px;
+	display: inline-block;
+	text-align: center;
+	padding: 5px;
+}
+#screen ul li:hover{
+	background-color: rgba(84,149,216,0.5);
+	box-shadow: 0px 0px 15px rgba(100,100,100,0.6);
+	cursor: pointer;
+}
+#screen ul li img{
+	height: 60%;
+}
+#ayuda:hover{
+	opacity: 1;
+	padding-left: 0px;
+	right: 0;
+}
+#ayuda{
+	position: absolute;
+	right: -100px;
+	z-index: 100;
+	opacity: 0.0;
+	width: 10%;
+	height: 100%;
+	background-color: #111;
+	color: #f7f7f7;
+	float: right;
+	-webkit-transition:all 0.4s ease-out;
+	-ms-transition:all 0.4s ease-out;
+	padding-left: 100px;
+}
+#ayuda ul{
+	padding-top: 300px;
+}
+#ayuda ul li{
+	height: 90px;
+	margin-bottom: 10px;
+	list-style-type: none;
+	color: gray;
+	font-weight: bolder;
+	text-align: center;
+	
+}
+#ayuda ul li img{
+	height: 60%;
+}
+#bottom{
+	height: 45px;
+	width: 100%;
+	background-color: rgba(100,50,50,0.6);
+	position: absolute;
+	bottom: 0px;
+	z-index: 1;
+}
+#btns{
+	width: 75%;
+}
+#bottom ul{
+	display: inline-block;
+}
+#bottom ul li{
+	height: 45px;
+	width: 65px;
+	display: inline-block;
+	background-color: rgba(180,180,180,0.4);
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	border: solid 1px rgba(0,0,0,0.6);
+	text-align: center;
+	transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+}
+#bottom ul li:hover{
+	background-color: rgba(190,190,250,0.5);
+	cursor: pointer;
+}
+#iconos{
+	width: 20%;
+	
+}
+#bottom ul li img{
+	width: 55%;
+	margin-top: 5px;
+}
+#bottom #iconos li{
+	background-color: inherit;
+	color: #f7f7f7;
+	box-shadow: none;
+	border: none;
+}
+#calc{
+	display: none;
+	position: absolute;
+	background-color: #f7f7f7;
+	color: #222;
+	border: solid 5px rgba(150,100,100,0.8);
+	top: 30%;
+	left: 40%;
+}
+#calc nav{
+	background-color: rgba(150,100,100,0.8);
+	padding: 1px;
+	text-align: right;
+}
+#calc div{
+	padding: 10px;
+}
+#calc input{
+	
+	margin: 10px;
+}
+nav h2{
+	display: inline-block;
+	
+}
+#creditos{
+	display: none;
+	position: absolute;
+	background-color: #f7f7f7;
+	color: #222;
+	border: solid 5px rgba(150,100,100,0.8);
+	resize:both;
+	overflow:auto;
+}
+#creditos div{
+	padding: 10px;
+}
+#creditos nav{
+	background-color: rgba(150,100,100,0.8);
+	padding: 1px;
+	text-align: right;
+}
+nav li{
+	display: inline-block;
+}
+nav li{
+	cursor: pointer;
+}
+#pantallaInicio{
+	display: none;
+	background-color: #222;
+	width: 100%;
+	height: 100%;
+	top:0px;
+	left: 0px;
+	z-index: 10;
+	position: absolute;
+	padding: 2em;
+}
+#pantallaInicio div{
+	display: inline-block;
+	background-color: rgba(200,50,50,1);
+	padding: 1em;
+	-ms-transition:all 0.4s ;
+	-webkit-transition:all 0.4s ;
+}
+#pantallaInicio div:hover{
+	border: solid 3px gray;
+	cursor: pointer;
+}
+#pantallaInicio section{
+	width: 200px;
+	position:absolute;
+	top: 0px;
+	right: 50px;
+}
+#pantallaInicio section h3{
+	margin: 0px;
+	padding: 0px;
+}
+#pantallaInicio section h4{
+	margin: 0px;
+	padding: 0px;
+	margin-left: 20%;
+}
