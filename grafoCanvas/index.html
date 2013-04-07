@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang='es'>
 <head>
 	<title>Grafos</title>
 	<link rel="stylesheet" href="style.css">
@@ -8,9 +9,21 @@
 <body>
 	<h1>Grafos y Canvas HTML5</h1>
 	<div id="container"></div>
-	<div class="input"><label>Agregar vértice</label> <input type='number' id='vertice' placeholder='Valor del vértice'> <button id='a_v'>Agregar</button> </div>
-	<div class="input"><label>Agregar arista</label> <input type='number' id='a' placeholder='Valor del vértice uno '> <input type='number' id='a2' placeholder='Valor del vértice dos '> <button id='a_a'>Agregar</button> </div>
-	<script src='http://d3lp1msu2r81bx.cloudfront.net/kjs/js/lib/kinetic-v4.4.0.min.js'></script>
-	<script src='s.min.js'></script>
+	<div class='right'>
+		<div class="input">
+			<button id='cnx'>¿El grafo es conexo?</button>
+		</div>
+		<div class="input">
+			<button id='rec'>Recolorear</button>
+		</div>
+		<div class="input"><label>Agregar vértice</label> <input type='number' id='vertice' placeholder='Valor del vértice'> <button id='a_v'>Agregar</button> </div>
+		<div class="input"><label>Agregar arista</label> <input type='number' id='a' placeholder='Valor del vértice uno '> <input type='number' id='a2' placeholder='Valor del vértice dos '> <button id='a_a'>Agregar</button> </div>
+		
+		<div class="input">
+			<label>Buscar vértice</label> <input type='number' id='b1' placeholder='¿dónde comienzo?'> <input type='number' id='b2' placeholder='¿a quien buscas?'> <button id='buscar'>Buscar</button> </div>
+		</div>
+	</div>
+		<script src='http://d3lp1msu2r81bx.cloudfront.net/kjs/js/lib/kinetic-v4.4.0.min.js'></script>
+		<script src='s.js'></script>
 </body>
 </html>

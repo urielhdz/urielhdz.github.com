@@ -3,6 +3,8 @@ html,body{
 	font-family: Arial,'Helvetica';
 	background-color: #f7f7f7;
 	font-family: 'Share Tech Mono', sans-serif;
+	text-align: center;
+	overflow: hidden;
 }
 h1{
 	color: #ea043a;
@@ -18,7 +20,26 @@ h1{
 	padding: 0.5em;
 }
 .input{
-	padding: 1em;
-	width: 900px;
-	margin: 0 auto;
+	margin-bottom: 1em;
+}
+.input input{
+	width: 300px;
+}
+button{
+	border: none;
+	width: 300px;
+	background-color: #222;
+	color: #f7f7f7;
+	padding: 0.5em 1em;
+	border-radius: 5px;
+}
+.input label{
+	display: block;
+}
+#container,.right{
+	display: inline-block;
+}
+.right{
+	width: 300px;
+	vertical-align: top;
 }
