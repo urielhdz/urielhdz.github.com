@@ -3,8 +3,6 @@ html,body{
 	font-family: Arial,'Helvetica';
 	background-color: #f7f7f7;
 	font-family: 'Share Tech Mono', sans-serif;
-	text-align: center;
-	overflow: hidden;
 }
 h1{
 	color: #ea043a;
@@ -27,7 +25,6 @@ h1{
 }
 button{
 	border: none;
-	width: 300px;
 	background-color: #222;
 	color: #f7f7f7;
 	padding: 0.5em 1em;
