@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The world</title>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.13/d3.min.js"></script>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<style>
+	.transitionable{
+		transition:all 0.4s;
+		cursor: pointer;
+	}
+	</style>
+</head>
+<body>
+	<div class="row">
+		<div class="col-md-8">
+			<h1>World's population heat map</h1>
+			<div id="map"></div>		
+		</div>	
+		<div class="col-md-4">
+			<div>
+				Made using: <a href="https://github.com/urielhdz/d3_maps">https://github.com/urielhdz/d3_maps</a>
+			</div>
+			<div>
+				<p> Country: <span id="name"></span> </p>
+				<p> Population: <span id="population"></span> </p>
+			</div>
+		</div>
+	</div>
+	<script src="maps/map.js"></script>
+	<script>
+		
+		var map = new Map("#map",{width:700,height:700,scale:110,mouse_over:true});
+		var population_json = {};
+		map.stroke(function(){
+			d3.json("population.json",function(json_array){
+				
+				var count = 0;
+				for(i in json_array){
+					var json = json_array[i];
+					if(json["Year"] == "2010"){
+						population_json[json["Country Code"]] = +json["Value"];
+						count++;
+					}
+				}
+				map.applyHeatCountries(population_json,
+			    function(){
+			   		
+			    });
+			});
+
+		},{strokeWidth: "1px",color:"#eee",click: function(el){
+			document.querySelector("#name").innerHTML = el.id;
+			document.querySelector("#population").innerHTML = population_json[el.id];
+		}});
+
+	</script>
+</body>
+</html>
