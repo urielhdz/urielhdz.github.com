@@ -1,0 +1,173 @@
+/* line 1, /Users/urielhernandez/Documents/dev/me/app/assets/stylesheets/app.css.scss.erb */
+html, body {
+  height: 100%;
+}
+
+/* line 4, /Users/urielhernandez/Documents/dev/me/app/assets/stylesheets/app.css.scss.erb */
+.full-height {
+  height: 100%;
+}
+
+/* line 7, /Users/urielhernandez/Documents/dev/me/app/assets/stylesheets/app.css.scss.erb */
+#main {
+  background: url(./8.png) center;
+  background-size: 100% auto;
+}
+
+/* line 11, /Users/urielhernandez/Documents/dev/me/app/assets/stylesheets/app.css.scss.erb */
+.aligner-vertical {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 16, /Users/urielhernandez/Documents/dev/me/app/assets/stylesheets/app.css.scss.erb */
+.large-padding {
+  padding: 5px 15px !important;
+}
+
+/* line 19, /Users/urielhernandez/Documents/dev/me/app/assets/stylesheets/app.css.scss.erb */
+.be-small {
+  font-size: 12px !important;
+}
+
+/* line 23, /Users/urielhernandez/Documents/dev/me/app/assets/stylesheets/app.css.scss.erb */
+.be-medium {
+  font-size: 1.5em;
+}
+
+/* line 26, /Users/urielhernandez/Documents/dev/me/app/assets/stylesheets/app.css.scss.erb */
+.be-smaller {
+  font-size: 10px !important;
+}
+
+/* line 29, /Users/urielhernandez/Documents/dev/me/app/assets/stylesheets/app.css.scss.erb */
+.be-big {
+  font-size: 3em;
+}
+
+/* line 32, /Users/urielhernandez/Documents/dev/me/app/assets/stylesheets/app.css.scss.erb */
+.be-bigger {
+  font-size: 5em;
+}
+
+/* line 35, /Users/urielhernandez/Documents/dev/me/app/assets/stylesheets/app.css.scss.erb */
+.radius {
+  border-radius: 2px;
+}
+
+/* line 38, /Users/urielhernandez/Documents/dev/me/app/assets/stylesheets/app.css.scss.erb */
+.be-white {
+  background-color: white !important;
+}
+
+/* line 41, /Users/urielhernandez/Documents/dev/me/app/assets/stylesheets/app.css.scss.erb */
+.border {
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.8);
+}
+
+/* line 44, /Users/urielhernandez/Documents/dev/me/app/assets/stylesheets/app.css.scss.erb */
+.white {
+  color: white !important;
+}
+
+/* line 47, /Users/urielhernandez/Documents/dev/me/app/assets/stylesheets/app.css.scss.erb */
+.purple {
+  color: #5E4352;
+}
+
+/* line 51, /Users/urielhernandez/Documents/dev/me/app/assets/stylesheets/app.css.scss.erb */
+.be-gray {
+  background-color: #E5E5E5;
+}
+
+/* line 54, /Users/urielhernandez/Documents/dev/me/app/assets/stylesheets/app.css.scss.erb */
+.pink {
+  color: #C74066;
+}
+
+/* line 57, /Users/urielhernandez/Documents/dev/me/app/assets/stylesheets/app.css.scss.erb */
+.gray {
+  color: #eeeeee;
+}
+
+/* line 60, /Users/urielhernandez/Documents/dev/me/app/assets/stylesheets/app.css.scss.erb */
+.be-other-gray {
+  background-color: #F2F2F2;
+}
+
+/* line 63, /Users/urielhernandez/Documents/dev/me/app/assets/stylesheets/app.css.scss.erb */
+.inline-block {
+  float: none;
+  display: inline-block;
+  margin-right: -4px;
+  vertical-align: middle;
+}
+
+/* line 69, /Users/urielhernandez/Documents/dev/me/app/assets/stylesheets/app.css.scss.erb */
+.gradient {
+  background: #292939;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #292939 0%, #23b58f 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #292939), color-stop(100%, #23b58f));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #292939 0%, #23b58f 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #292939 0%, #23b58f 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #292939 0%, #23b58f 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #292939 0%, #23b58f 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#292939', endColorstr='#23b58f',GradientType=0 );
+  /* IE6-9 */
+}
+
+/* line 80, /Users/urielhernandez/Documents/dev/me/app/assets/stylesheets/app.css.scss.erb */
+.ubuntu {
+  font-family: 'Ubuntu Mono';
+}
+
+/* line 83, /Users/urielhernandez/Documents/dev/me/app/assets/stylesheets/app.css.scss.erb */
+.opacity {
+  opacity: 0.6;
+}
+
+/* line 86, /Users/urielhernandez/Documents/dev/me/app/assets/stylesheets/app.css.scss.erb */
+.no-float {
+  float: none !important;
+}
+
+/* line 89, /Users/urielhernandez/Documents/dev/me/app/assets/stylesheets/app.css.scss.erb */
+.be-blue {
+  background-color: #34495e;
+}
+
+/* line 92, /Users/urielhernandez/Documents/dev/me/app/assets/stylesheets/app.css.scss.erb */
+.text-center {
+  text-align: center;
+}
+
+/* line 95, /Users/urielhernandez/Documents/dev/me/app/assets/stylesheets/app.css.scss.erb */
+.text-justify {
+  text-align: justify;
+}
+
+/* line 98, /Users/urielhernandez/Documents/dev/me/app/assets/stylesheets/app.css.scss.erb */
+.text-shadow {
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+}
+
+/* line 101, /Users/urielhernandez/Documents/dev/me/app/assets/stylesheets/app.css.scss.erb */
+.be-black {
+  background-color: #202020;
+}
+
+@media screen and (max-width: 800px) {
+  /* line 105, /Users/urielhernandez/Documents/dev/me/app/assets/stylesheets/app.css.scss.erb */
+  .full-height {
+    height: auto;
+    min-height: 100%;
+  }
+}
